@@ -143,6 +143,7 @@ function resetGame() {
     mistakeTag.innerText = mistakes
     wpmTag.innerText = 0
     cpmTag.innerText = 0
+    accuracyTag.innerText = 0
     inputText.value = ""
     clearInterval(timer)
     boxDetails.style.opacity = 1;
